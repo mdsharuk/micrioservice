@@ -1,0 +1,12 @@
+server:
+  port:9001
+spring:
+application:
+  name:FASTMAICIROSERVICE
+
+eureka:
+  client:
+    register-with-eureka:true
+    fetch-registry:ture
+  serviceUrl:
+  defaultZone: http://localhost:8761/eureka/
